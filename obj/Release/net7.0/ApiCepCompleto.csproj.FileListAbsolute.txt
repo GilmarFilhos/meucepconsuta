@@ -33,3 +33,6 @@ C:\Users\gilmar\Documents\meucepconsuta\obj\Release\net7.0\ref\ApiCepCompleto.dl
 C:\Users\gilmar\Documents\meucepconsuta\bin\Release\net7.0\out\web.config
 C:\Users\gilmar\Documents\meucepconsuta\bin\Release\net7.0\out\ApiCepCompleto.deps.json
 C:\Users\gilmar\Documents\meucepconsuta\bin\Release\net7.0\out\ApiCepCompleto.runtimeconfig.json
+C:\Users\gilmar\Documents\meucepconsuta\bin\Release\net7.0\out\out\web.config
+C:\Users\gilmar\Documents\meucepconsuta\bin\Release\net7.0\out\out\ApiCepCompleto.deps.json
+C:\Users\gilmar\Documents\meucepconsuta\bin\Release\net7.0\out\out\ApiCepCompleto.runtimeconfig.json

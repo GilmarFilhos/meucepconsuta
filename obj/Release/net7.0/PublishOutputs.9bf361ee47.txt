@@ -1,0 +1,15 @@
+C:\Users\gilmar\Documents\meucepconsuta\publish\ApiCepCompleto.exe
+C:\Users\gilmar\Documents\meucepconsuta\publish\out\out\web.config
+C:\Users\gilmar\Documents\meucepconsuta\publish\out\web.config
+C:\Users\gilmar\Documents\meucepconsuta\publish\out\ApiCepCompleto.deps.json
+C:\Users\gilmar\Documents\meucepconsuta\publish\out\ApiCepCompleto.runtimeconfig.json
+C:\Users\gilmar\Documents\meucepconsuta\publish\out\out\ApiCepCompleto.deps.json
+C:\Users\gilmar\Documents\meucepconsuta\publish\out\out\ApiCepCompleto.runtimeconfig.json
+C:\Users\gilmar\Documents\meucepconsuta\publish\ApiCepCompleto.dll
+C:\Users\gilmar\Documents\meucepconsuta\publish\ApiCepCompleto.deps.json
+C:\Users\gilmar\Documents\meucepconsuta\publish\ApiCepCompleto.runtimeconfig.json
+C:\Users\gilmar\Documents\meucepconsuta\publish\ApiCepCompleto.pdb
+C:\Users\gilmar\Documents\meucepconsuta\publish\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\gilmar\Documents\meucepconsuta\publish\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\gilmar\Documents\meucepconsuta\publish\Newtonsoft.Json.dll
+C:\Users\gilmar\Documents\meucepconsuta\publish\Newtonsoft.Json.Bson.dll

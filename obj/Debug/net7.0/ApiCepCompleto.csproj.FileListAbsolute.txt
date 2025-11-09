@@ -90,3 +90,9 @@ C:\Users\gilmar\Documents\meucepconsuta\obj\Debug\net7.0\ApiCepCompleto.pdb
 C:\Users\gilmar\Documents\meucepconsuta\obj\Debug\net7.0\ApiCepCompleto.genruntimeconfig.cache
 C:\Users\gilmar\Documents\meucepconsuta\obj\Debug\net7.0\ref\ApiCepCompleto.dll
 C:\Users\gilmar\Documents\meucepconsuta\obj\Debug\net7.0\ApiCepCompleto.sourcelink.json
+C:\Users\gilmar\Documents\meucepconsuta\bin\Debug\net7.0\out\out\web.config
+C:\Users\gilmar\Documents\meucepconsuta\bin\Debug\net7.0\out\web.config
+C:\Users\gilmar\Documents\meucepconsuta\bin\Debug\net7.0\out\ApiCepCompleto.deps.json
+C:\Users\gilmar\Documents\meucepconsuta\bin\Debug\net7.0\out\ApiCepCompleto.runtimeconfig.json
+C:\Users\gilmar\Documents\meucepconsuta\bin\Debug\net7.0\out\out\ApiCepCompleto.deps.json
+C:\Users\gilmar\Documents\meucepconsuta\bin\Debug\net7.0\out\out\ApiCepCompleto.runtimeconfig.json
