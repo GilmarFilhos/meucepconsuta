@@ -1,0 +1,12 @@
+C:\Users\gilmar\Documents\meucepconsuta\out\ApiCepCompleto.exe
+C:\Users\gilmar\Documents\meucepconsuta\out\out\web.config
+C:\Users\gilmar\Documents\meucepconsuta\out\out\ApiCepCompleto.deps.json
+C:\Users\gilmar\Documents\meucepconsuta\out\out\ApiCepCompleto.runtimeconfig.json
+C:\Users\gilmar\Documents\meucepconsuta\out\ApiCepCompleto.dll
+C:\Users\gilmar\Documents\meucepconsuta\out\ApiCepCompleto.deps.json
+C:\Users\gilmar\Documents\meucepconsuta\out\ApiCepCompleto.runtimeconfig.json
+C:\Users\gilmar\Documents\meucepconsuta\out\ApiCepCompleto.pdb
+C:\Users\gilmar\Documents\meucepconsuta\out\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\gilmar\Documents\meucepconsuta\out\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\gilmar\Documents\meucepconsuta\out\Newtonsoft.Json.dll
+C:\Users\gilmar\Documents\meucepconsuta\out\Newtonsoft.Json.Bson.dll
