@@ -1,0 +1,58 @@
+@model MeuCepConsulta.Models.CepModel
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <title>Consulta de CEP</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f2f4f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            width: 320px;
+            text-align: center;
+        }
+        h2 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+        p {
+            margin: 8px 0;
+            color: #555;
+        }
+        span {
+            font-weight: bold;
+        }
+      h2{
+
+       color: blue;
+      }
+
+        
+    </style>
+</head>
+<body>
+
+  <h1>DESENVOLVIDO POR GILMAR FILHO</h1>
+    <div class="card">
+      <h2>API CONSULTA DE CONSULTA URL 2025</h2>
+
+        <h2>CEP: @Model.Cep</h2>
+        <p><span>Rua:</span> @Model.Logradouro</p>
+        <p><span>Bairro:</span> @Model.Bairro</p>
+        <p><span>Cidade:</span> @Model.Localidade - @Model.Uf</p>
+        <p><span>DDD:</span> @Model.Ddd</p>
+        <p><span>IBGE:</span> @Model.Ibge</p>
+    </div>
+</body>
+</html>
