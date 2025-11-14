@@ -1,4 +1,4 @@
-@model MeuCepConsulta.Models.CepModel
+@model MeuCepConsulta.Models.CepViewModel
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -11,20 +11,23 @@
             background-color: #f2f4f7;
             display: flex;
             justify-content: center;
-            align-items: center;
-            height: 100vh;
+            align-items: flex-start;
+            padding: 50px;
         }
-        .card {
+        .container {
+            display: flex;
+            gap: 40px;
+        }
+        .card, .historico-card {
             background: white;
             border-radius: 10px;
             padding: 30px;
             box-shadow: 0 0 15px rgba(0,0,0,0.2);
             width: 320px;
-            text-align: center;
         }
         h2 {
             margin-bottom: 10px;
-            color: #333;
+            color: blue;
         }
         p {
             margin: 8px 0;
@@ -33,26 +36,72 @@
         span {
             font-weight: bold;
         }
-      h2{
-
-       color: blue;
-      }
-
-        
+        h1 {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .historico-card h3 {
+            margin-bottom: 15px;
+        }
+        .historico-card ul {
+            list-style-type: none;
+            padding-left: 0;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .historico-card li {
+            padding: 5px 0;
+            border-bottom: 1px solid #eee;
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
+    <div>
+        <h1>DESENVOLVIDO POR GILMAR FILHO</h1>
+        <div class="container">
+            <!-- Cartão da consulta atual -->
+            <div class="card">
+                <h2>API CONSULTA DE CEP 2025</h2>
 
-  <h1>DESENVOLVIDO POR GILMAR FILHO</h1>
-    <div class="card">
-      <h2>API CONSULTA DE CONSULTA URL 2025</h2>
+                @if (Model.CepAtual != null)
+                {
+                    <h2>CEP: @Model.CepAtual.Cep</h2>
+                    <p><span>Rua:</span> @Model.CepAtual.Logradouro</p>
+                    <p><span>Bairro:</span> @Model.CepAtual.Bairro</p>
+                    <p><span>Cidade:</span> @Model.CepAtual.Localidade - @Model.CepAtual.Uf</p>
+                    <p><span>DDD:</span> @Model.CepAtual.Ddd</p>
+                    <p><span>IBGE:</span> @Model.CepAtual.Ibge</p>
+                }
+                else
+                {
+                    <p>Nenhum CEP consultado ainda.</p>
+                }
+            </div>
 
-        <h2>CEP: @Model.Cep</h2>
-        <p><span>Rua:</span> @Model.Logradouro</p>
-        <p><span>Bairro:</span> @Model.Bairro</p>
-        <p><span>Cidade:</span> @Model.Localidade - @Model.Uf</p>
-        <p><span>DDD:</span> @Model.Ddd</p>
-        <p><span>IBGE:</span> @Model.Ibge</p>
+            <!-- Cartão do histórico -->
+            <div class="historico-card">
+                <h3>Histórico de Consultas</h3>
+                @if (Model.Historico != null && Model.Historico.Any())
+                {
+                    <ul>
+                        @foreach (var item in Model.Historico.OrderByDescending(h => h.DataConsulta))
+                        {
+                            <li>
+                                <strong>@item.Cep</strong> - @item.Logradouro <br />
+                                @item.Bairro, @item.Cidade - @item.Uf <br />
+                                <small>@item.DataConsulta.ToString("dd/MM/yyyy HH:mm")</small>
+                            </li>
+                        }
+                    </ul>
+                }
+                else
+                {
+                    <p>Nenhuma consulta realizada ainda.</p>
+                }
+            </div>
+        </div>
     </div>
 </body>
 </html>

@@ -2,9 +2,10 @@ using Microsoft.AspNetCore.Mvc;
 using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
-using MeuCepConsulta.Models;
+using MEUCEPCONSUTA.Model;  // CORRIGIDO
 
-namespace MeuCepConsulta.Controllers
+
+namespace MeuCepConsuta.Controllers   // CORRIGIDO
 {
     [Route("api/cep")]
     public class CepController : Controller
@@ -29,15 +30,12 @@ namespace MeuCepConsulta.Controllers
             if (data is null)
                 return BadRequest(new { message = "Erro ao tratar dados do ViaCEP" });
 
-            // Se ViaCEP retornou erro
             if (data.Erro)
                 return NotFound(new { message = "CEP não encontrado" });
 
-            // Se navegador → renderiza HTML
             if (Request.Headers["Accept"].ToString().Contains("text/html"))
                 return View("Index", data);
 
-            // Se API (curl, fetch, etc) → retorna JSON puro
             return Content(responseString, "application/json");
         }
     }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiCepCompleto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+714c720855b0dd0c4d217bf85e811fce35344405")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d68bb304b38102e02340d7f89f42dbf51dd853b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiCepCompleto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiCepCompleto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

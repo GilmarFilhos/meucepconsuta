@@ -9,15 +9,15 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ApiCepCompleto
 build_property.RootNamespace = ApiCepCompleto
-build_property.ProjectDir = C:\Users\gilmar\Documents\meucepconsuta\
+build_property.ProjectDir = C:\Users\gilmar\Documents\ApiCepCompleto\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\gilmar\Documents\meucepconsuta
+build_property.MSBuildProjectDirectory = C:\Users\gilmar\Documents\ApiCepCompleto
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/gilmar/Documents/meucepconsuta/Views/cep/Index.csHtml]
+[C:/Users/gilmar/Documents/ApiCepCompleto/Views/cep/Index.csHtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2VwXEluZGV4LmNzSHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,4 +1,4 @@
-namespace MeuCepConsulta.Models
+namespace MEUCEPCONSUTA.Models
 {
     public class CepModel
     {

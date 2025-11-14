@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "rEPSceOFNAnrKFjNeT0/RXtsfFWj9kzTC9+mgpvVPGo=",
+  "Hash": "AVO0tXXMtDK9B/a+m4E2JwXx4WFfFjNcjxyj3tXpqi0=",
   "Source": "ApiCepCompleto",
   "BasePath": "_content/ApiCepCompleto",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ApiCepCompleto\\wwwroot",
+      "Source": "ApiCepCompleto",
+      "ContentRoot": "C:\\Users\\gilmar\\Documents\\ApiCepCompleto\\wwwroot\\",
+      "BasePath": "_content/ApiCepCompleto",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\gilmar\\Documents\\ApiCepCompleto\\wwwroot\\Index.Html",
+      "SourceId": "ApiCepCompleto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gilmar\\Documents\\ApiCepCompleto\\wwwroot\\",
+      "BasePath": "_content/ApiCepCompleto",
+      "RelativePath": "Index.Html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Index.Html"
+    }
+  ]
 }
